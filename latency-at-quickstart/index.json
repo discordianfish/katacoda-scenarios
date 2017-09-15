@@ -1,0 +1,42 @@
+{
+  "title": "Latency.at: Monitor your sites quickstart",
+  "description": "Learn how to Latency.at and it's configuration generator to monitor sites and services.",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+        "title": "Create Latency.at Token",
+        "text": "step1.md"
+      },
+      {
+        "title": "Generate Configuration",
+        "text": "step2.md"
+      },
+      {
+        "title": "Fire Up Promtheus",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "",
+      "courseData": "courseBase.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n",
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "Latency.at", "port": 8000},
+      {"name": "Grafana", "port": 3000},
+      {"name": "Prometheus", "port": 8080}
+		]
+  },
+  "backend": {
+    "imageid": "docker-direct"
+  }
+}
