@@ -1,5 +1,6 @@
 Now you need to configure Prometheus to scrape the Latency.at probes.
-For that click on [Configuration](https://latency.at/dashboard/configuration),
+For that click on
+[Configuration](https://[[HOST_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/dashboard/configuration),
 then *Generator* in the left sidebar.
 
 # Task: Add targets
