@@ -25,5 +25,7 @@ the *Mini* plan and includes 50.000 requests. That is around one request per
 minute.
 
 The configuration already includes the Token you created in the previous step.
+If you generated the config without being logged in, you need to manually add
+the Token you created in the last step.
 
 Now click on *Copy* to copy the configuration.
